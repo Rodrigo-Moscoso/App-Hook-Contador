@@ -17,7 +17,7 @@ const Contador = () => {
 
   useEffect(() => {
     console.log(`El contador va en ${cuenta}`);
-  });
+  }, [cuenta]);
 
   return (
     <div>
